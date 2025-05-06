@@ -8,8 +8,7 @@ while True:
         import time, sys, socket, threading, logging, urllib.request, random
 
         proxies = {
-            'http': 'socks5h://127.0.0.1:9050',
-            'https': 'socks5h://127.0.0.1:9050'
+             # Put proxies here
         }
 
         def user_agent():
